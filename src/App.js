@@ -45,7 +45,7 @@ function App() {
         height={{ base: '80%', md: '65%', lg: '50%' }}
         m='2rem'
         p='3rem'
-        py='4rem'
+        py='3rem'
         borderRadius='2rem'
       >
         {!showThanks && (
@@ -53,7 +53,7 @@ function App() {
             <Circle bg='#262f38' my='0.4rem' width='40px' height='40px'>
               <StarSVG />
             </Circle>
-            <Text fontSize='4xl' fontWeight='bold' as='h1'>
+            <Text fontSize='3xl' fontWeight='bold' as='h1'>
               How did we do?
             </Text>
             <Text fontSize='md' color='gray.400' as='p'>
