@@ -1,6 +1,5 @@
 import './App.css';
 import {
-  Image,
   Stack,
   Box,
   HStack,
@@ -12,7 +11,7 @@ import {
   Center,
   Icon,
 } from '@chakra-ui/react';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import SubmitedSVG from './SubmitedSVG';
 
 function RadioCard(props) {
@@ -50,7 +49,6 @@ function RadioCard(props) {
 
 function App() {
   const options = ['1', '2', '3', '4', '5'];
-  const [isSubmited, setIsSubmited] = useState(false);
   const [showModal, setShowModal] = useState(false);
 
   const [rating, setRating] = useState('1');
