@@ -41,8 +41,8 @@ function App() {
       <Stack
         color='white'
         bg='#1f2630'
-        width={{ base: '90%', md: '65%', lg: '27%' }}
-        height={{ base: '80%', md: '65%', lg: '50%' }}
+        width={{ base: '90%', md: '65%', lg: '50%', xl: '33%' }}
+        height={{ base: '80%', md: '65%', lg: '60%', xl: '52%' }}
         m='2rem'
         p='3rem'
         py='3rem'
