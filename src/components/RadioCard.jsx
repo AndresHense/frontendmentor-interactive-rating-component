@@ -24,7 +24,7 @@ const RadioCard = (props) => {
         }}
         px={{ base: 4, md: 6, lg: 6 }}
         py={{ base: 2, md: 4, lg: 4 }}
-        mx={{ base: 1, md: 2, lg: 2 }}
+        mx={{ base: 0.5, md: 2, lg: 2 }}
         my={{ base: 2, md: 4, lg: 4 }}
       >
         {props.children}

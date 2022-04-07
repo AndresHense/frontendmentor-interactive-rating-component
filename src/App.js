@@ -44,7 +44,7 @@ function App() {
         width={{ base: '90%', md: '65%', lg: '50%', xl: '33%' }}
         height={{ base: '80%', md: '65%', lg: '60%', xl: '52%' }}
         m='2rem'
-        px={{ base: '1rem', lg: '3rem', xl: '3rem' }}
+        px={{ base: '2rem', lg: '3rem', xl: '3rem' }}
         py='3rem'
         borderRadius='2rem'
       >
@@ -60,16 +60,18 @@ function App() {
               Please let us know how we did with your support request. All
               feedback is appreciated to help us improve our offering!
             </Text>
-            <HStack {...group}>
-              {options.map((value) => {
-                const radio = getRadioProps({ value });
-                return (
-                  <RadioCard key={value} {...radio}>
-                    {value}
-                  </RadioCard>
-                );
-              })}
-            </HStack>
+            <Center>
+              <HStack {...group}>
+                {options.map((value) => {
+                  const radio = getRadioProps({ value });
+                  return (
+                    <RadioCard key={value} {...radio}>
+                      {value}
+                    </RadioCard>
+                  );
+                })}
+              </HStack>
+            </Center>
             <Button
               onClick={handleSubmit}
               bg='#fc7613'
