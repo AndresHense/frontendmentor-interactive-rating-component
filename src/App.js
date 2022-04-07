@@ -44,7 +44,7 @@ function App() {
         width={{ base: '90%', md: '65%', lg: '50%', xl: '33%' }}
         height={{ base: '80%', md: '65%', lg: '60%', xl: '52%' }}
         m='2rem'
-        p={{ base: '3rem', sm: '1.5rem' }}
+        px={{ base: '1rem', lg: '3rem', xl: '3rem' }}
         py='3rem'
         borderRadius='2rem'
       >
